@@ -1,0 +1,15 @@
+.image-holder {
+	background:url(./images/6.jpg) no-repeat 0 -120px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.jumbotron {
+	background:rgba(0, 0, 0, 0.5);;
+	color:white;
+	text-align:center;
+	height:850px;
+	border-radius:0;
+}
+
+hr {border-color:#007bff;}

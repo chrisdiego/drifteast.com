@@ -1,0 +1,19 @@
+.nav-link {
+	color:white;
+}
+
+.nav-link.active {
+	background:whitesmoke;
+}
+
+.nav-link.active {
+	color:#007bff;
+}
+
+.nav-link {
+	line-height:82px;
+	margin:0 15px;
+	font-size:18px;
+}
+
+.navbar-brand img {padding:10px;}
