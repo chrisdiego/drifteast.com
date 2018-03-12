@@ -1,8 +1,12 @@
 import React from 'react';
 
+import './footer.css';
+
 const Footer = () => (
-	<div>
-		<span>FOOTER</span>
+	<div className="footer">
+		<div className="info">
+			2018 Drift East
+		</div>
 	</div>
 )
 

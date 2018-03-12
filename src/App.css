@@ -30,3 +30,15 @@
 .no-padding {
   padding:0 !important;
 }
+
+.font-18 {
+  font-size:18px;
+}
+
+body {
+  background: #cecece;
+}
+
+.img-responsive {
+  max-width:100%;
+}

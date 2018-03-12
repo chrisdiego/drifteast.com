@@ -4,6 +4,7 @@
 
 .nav-link.active {
 	background:whitesmoke;
+	color:;
 }
 
 .nav-link.active {
@@ -16,4 +17,22 @@
 	font-size:18px;
 }
 
-.navbar-brand img {padding:10px;}
+.navbar-brand img {
+	padding:10px;
+}
+
+@media only screen and (max-width: 600px) {
+   .navbar-brand {
+		margin:0;
+	}
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+	border-color:white;
+	margin:0 10px 10px 10px;
+}
+

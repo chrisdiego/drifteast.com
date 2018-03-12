@@ -1,0 +1,17 @@
+.article {
+	background:#4da3ff;
+	text-align:center;
+}
+
+.article:hover {
+	background:#007bff;
+	color:white;
+}
+
+.article-content {
+	margin:40px;
+}
+
+.article .title {
+	margin-top:15px;
+}

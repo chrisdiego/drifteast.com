@@ -1,15 +1,43 @@
-.image-holder {
-	background:url(./images/6.jpg) no-repeat 0 -120px;
+.home-page .image-holder {
+	background:url(./images/6.jpg) no-repeat 0 -145px;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 
-.jumbotron {
-	background:rgba(0, 0, 0, 0.5);;
+.home-page .jumbotron {
+	background:rgba(0, 0, 0, 0.5);
 	color:white;
 	text-align:center;
-	height:850px;
+	height:650px;
 	border-radius:0;
+	margin:0;
 }
 
-hr {border-color:#007bff;}
+.home-page hr {
+	border-color:#007bff;
+}
+
+.home-page .bio {
+	background: url(./images/1.jpg) no-repeat center;
+	background-size:auto;
+	color:white;
+	height:650px;
+}
+
+.home-page .seo-text {
+	background:rgba(0, 0, 0, 0.8);
+	height:90%;
+	float:right;
+	margin: 20px;
+}
+
+/* css for mobile */
+@media only screen and (max-width: 600px) {
+	.home-page .image-holder {
+		background-position:center;
+	}
+   .home-page .seo-text {
+		margin:20px 0 0 0;
+	}
+
+}
