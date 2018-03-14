@@ -3,12 +3,7 @@
 }
 
 .nav-link.active {
-	background:whitesmoke;
-	color:;
-}
-
-.nav-link.active {
-	color:#007bff;
+	color:#d3d3d3;
 }
 
 .nav-link {
