@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Event from './Event';
 
 import './calendar.css';
 
@@ -13,15 +14,11 @@ class Calendar extends Component {
   render() {
     return (
       <div className="container eventsContainer">
+        <p>notes: shows all events in a list right now, pulled from <a target="_blank" href="https://calendar.google.com/calendar?cid=a2FtYmp1bHM0YzJnamJsNWt1a3YxbjljcDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">this calendar</a>. I will add the option to switch between calendar view and list view.</p>
+        <p>a search feature will be added too</p>
         {this.props.events.map(event => 
           <div className="row">
-            <div className="col-12 event">
-              <div className="eventContent">
-                <h4>{event.summary}</h4>
-                <p>Start: {event.start.dateTime}</p>
-                <p>End: {event.end.dateTime}</p>
-              </div>
-            </div>
+            <Event event={event} />
           </div>
         )}
       </div>
