@@ -4,7 +4,8 @@ import { fetchEvents }  from './actions';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    events: state.events
+    events: state.events,
+    loading: state.loading
   }
 }
 
