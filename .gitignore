@@ -10,7 +10,7 @@
 /build
 
 #sass
-./sass-cache
+.sass-cache
 
 # misc
 .DS_Store
