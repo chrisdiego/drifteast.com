@@ -4,7 +4,7 @@
 
 .nav-link.active,
 .nav-link:hover {
-	color:#212529;
+	color:var(--dark);
 }
 
 .nav-link {

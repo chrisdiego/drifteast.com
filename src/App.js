@@ -6,7 +6,7 @@ import CalendarContainer from './CalendarContainer';
 import Media from './Media';
 import Contact from './Contact';
 import Footer from './Footer';
-import './App.css';
+import './styles/css/App.css';
 
 class App extends Component {
   render() {

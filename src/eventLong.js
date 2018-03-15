@@ -7,7 +7,7 @@ const EventLong = (props) => (
       <div className="longHeading">
         <h3>{props.event.summary}</h3>
         <GMapsStreetView location={props.event.location}/>
-        <div className="eventDetails">
+        <div className="eventDetails bg-primary">
           <div className="row infoRow">
             <div className="col-auto"><i className="far fa-clock"></i></div>
             <div className="col-auto">{moment(props.event.start.dateTime).format("dddd, MMMM Do, h:mm a")} - {moment(props.event.end.dateTime).format("dddd, MMMM Do, h:mm a")}</div>

@@ -14,7 +14,7 @@
 }
 
 .home-page hr {
-	border-color:#007bff;
+	border-color:var(--primary);
 }
 
 .home-page .bio {
@@ -30,11 +30,6 @@
 	float:right;
 	margin: 20px;
 	border-radius:2px;
-}
-
-.home-page .article > a{
-	color:#212529;
-	text-decoration: none;
 }
 
 /* css for mobile */

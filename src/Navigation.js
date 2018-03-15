@@ -7,7 +7,7 @@ import './navigation.css';
 const Navigation = () => (
 	<nav className="navbar bg-primary navbar-expand-xl sticky-top no-padding">
 		<Link className="navbar-brand" to="/">
-			{/*<img className="img-responsive" src={logo} />*/}
+			<img className="img-responsive" src={logo} />
 		</Link>
 		<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span className="navbar-toggler-icon"></span>
@@ -32,3 +32,4 @@ const Navigation = () => (
 )
 
 export default Navigation;
+ 

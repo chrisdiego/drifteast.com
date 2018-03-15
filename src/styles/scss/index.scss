@@ -1,0 +1,11 @@
+@import 'App';
+
+$body-bg: #f7f7f7;
+
+$theme-colors: (
+  "primary": #0080C6,
+  "secondary": #0A537A,
+  "dark": #212529
+);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap'; 

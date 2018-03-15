@@ -1,10 +1,9 @@
 .article {
-	background:#4da3ff;
 	text-align:center;
 }
 
 .article:hover {
-	background:#007bff;
+	color:var(--secondary);
 	color:white;
 }
 
@@ -14,4 +13,9 @@
 
 .article .title {
 	margin-top:15px;
+}
+
+.article > a{
+	color:var(--dark);
+	text-decoration: none;
 }
