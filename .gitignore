@@ -6,6 +6,12 @@
 # testing
 /coverage
 
+#build
+/build
+
+#sass
+./sass-cache
+
 # misc
 .DS_Store
 .env.local
