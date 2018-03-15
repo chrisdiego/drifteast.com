@@ -9,7 +9,7 @@
 .event .eventContent {
 	margin: 5px;
 }
-.event .eventContent .infoRow {
+.event .longHeading .infoRow {
 	margin-left:10px;
 	padding-bottom:10px;
 	padding-top:10px;
