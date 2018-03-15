@@ -16,9 +16,9 @@ const articles = [
 		content: "View, share, and contribute to media coverage of past events"
 	},
 	{
-		title: "IDK",
-		icon: "fab fa-sticker-mule",
-		content: "this a horse lol"
+		title: "Discord",
+		icon: "fab fa-discord",
+		content: "Join the community (bring your best memes)"
 	}
 ]
 
@@ -31,11 +31,11 @@ const HomePage = () => (
 			  <hr className="my-4" />
 			  <p>Check out the complete calendar of all east coast drift events, media coverage, and more.</p>
 			  <p className="lead">
-			    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			    <a className="btn btn-primary btn-lg" href="#articles" role="button">Learn more</a>
 			  </p>
 			</div>	
 		</div>
-		<div className="articles">
+		<div className="articles" id="articles">
 			<Articles articles={articles} />
 		</div>
 		<div className="bio">
@@ -45,7 +45,7 @@ const HomePage = () => (
 				<hr />
 				<p>But seriously, we were sick of bouncing between Facebook groups to find out when events were happening.  We're here to save you the hassle of planning out your drift season by providing an up-to-date calendar of all drift events on the east coast.</p>
 				<p>If you're an organizer, help us out by <Link to="/contact">getting in touch</Link> so we can collaborate on our efforts.</p>
-				<p>If you're a driver, spectator, or just wondering what all these damn kids are doing with their slidey cars, check out the <Link to="/contact">media section</Link>.</p>
+				<p>If you're a driver, spectator, or just wondering what all these damn kids are doing with their slidey cars, check out the <Link to="/media">media section</Link>.</p>
 			</div>
 		</div>
 	</div>

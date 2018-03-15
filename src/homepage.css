@@ -32,6 +32,11 @@
 	border-radius:2px;
 }
 
+.home-page .article > a{
+	color:#212529;
+	text-decoration: none;
+}
+
 /* css for mobile */
 @media only screen and (max-width: 600px) {
 	.home-page .image-holder {

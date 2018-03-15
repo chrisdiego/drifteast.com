@@ -2,8 +2,9 @@
 	color:white;
 }
 
-.nav-link.active {
-	color:#d3d3d3;
+.nav-link.active,
+.nav-link:hover {
+	color:#212529;
 }
 
 .nav-link {
