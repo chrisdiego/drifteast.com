@@ -28,10 +28,11 @@ export const receiveEventsSuccess = response => {
 }
 
 export function fetchEvents() {
+  const calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/kambjuls4c2gjbl5kukv1n9cp0@group.calendar.google.com/events?key=AIzaSyAUqQo9YdvNWyzdLPgyNLjDrPsWupw8v0w";
   return dispatch => {
     dispatch(requestEvents())
-    return fetch('/calendar')
+    return fetch(calendarUrl)
 	    .then(response => response.json())
-	    .then(data => dispatch(receiveEvents(data)))
+	    .then(data => dispatch(receiveEvents(data.items)))
   }
 }
