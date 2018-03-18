@@ -13,10 +13,6 @@
 	margin:0;
 }
 
-.home-page hr {
-	border-color:var(--primary);
-}
-
 .home-page .bio {
 	background: url(./images/1.jpg) no-repeat center;
 	background-size:auto;

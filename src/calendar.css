@@ -1,3 +1,25 @@
 .eventsContainer {
 	margin-top:15px;
 }
+
+.eventsContainer .search-form {
+	margin:15px 0;
+}
+
+.eventsContainer .headerImage {
+	background:url('./images/240.jpg');	
+	background-position:0 -280px;
+	height:200px;
+}
+
+.eventsContainer .headerImageContainer {
+	background:rgba(0, 0, 0, 0.5);
+	height:200px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.eventsContainer .headerImageContainer h3 {
+	color:#f7f7f7;
+}

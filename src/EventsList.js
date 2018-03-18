@@ -5,7 +5,7 @@ import Event from './Event';
 
 const EventsList = (props) => (
 	<div>
-        {props.events.map(event => 
+        {props.searchResults.map(event => 
           <div className="row">
             <Event event={event} />
           </div>

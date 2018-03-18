@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import Navigation from './Navigation';
-import CalendarContainer from './CalendarContainer';
+import Calendar from './Calendar';
 import Media from './Media';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -16,7 +16,7 @@ class App extends Component {
             <Navigation />
               <Switch>
                 <Route exact path="/" component={HomePage} />
-                <Route exact path="/calendar" component={CalendarContainer} />
+                <Route exact path="/calendar" component={Calendar} />
                 <Route exact path="/media" component={Media} />
                 <Route exact path="/contact" component={Contact} />
               </Switch>

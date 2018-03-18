@@ -16,6 +16,12 @@ class Event extends Component {
     this.setState({expanded: !this.state.expanded})
   }
 
+  componentWillReceiveProps(nextProps) {
+    //if a different event is populating this key post-search, reset the expanded state
+    if (nextProps.event != this.props.event) {
+      this.setState({expanded: false});
+    }
+  }
   
   render() {
     const props = this.props;

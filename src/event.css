@@ -17,6 +17,7 @@
 
 .event .description {
 	white-space:pre;
+	word-wrap: break-word;
 }
 
 .event .longHeading {
@@ -36,4 +37,18 @@
 
 .event .eventDetails {
 	color:white;
+}
+
+/* css for mobile */
+@media only screen and (max-width: 600px) {
+	.event .infoRow {
+		margin-bottom:7px;
+	}
+	.event .short .description {
+		overflow:hidden;
+		text-overflow: ellipsis;
+	}
+	.event .longHeading .infoRow {
+		margin: 0;
+	}
 }
