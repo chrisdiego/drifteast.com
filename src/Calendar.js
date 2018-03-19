@@ -17,7 +17,7 @@ class Calendar extends Component {
 
   componentWillMount() {
     this.setState({loading: true});
-    const calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/kambjuls4c2gjbl5kukv1n9cp0@group.calendar.google.com/events?key=AIzaSyAUqQo9YdvNWyzdLPgyNLjDrPsWupw8v0w";
+    const calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/kambjuls4c2gjbl5kukv1n9cp0@group.calendar.google.com/events?key=AIzaSyAUqQo9YdvNWyzdLPgyNLjDrPsWupw8v0w&singleEvents=true&orderBy=startTime";
     return fetch(calendarUrl)
       .then(response => response.json())
       //searchResults state is also populated with all events as our initial state
@@ -32,7 +32,7 @@ class Calendar extends Component {
   handleSubmit(e) {
     e.preventDefault();
     //use searchResults based on the events array, so that we are looking at all events rather than previous seach results
-    this.setState({searchResults: this.state.events.filter(event => event.summary.toLowerCase().includes(this.state.value))})
+    this.setState({searchResults: this.state.events.filter(event => event.summary.toLowerCase().includes(this.state.value.toLowerCase()))})
   }
 
   render() {

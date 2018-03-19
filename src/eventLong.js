@@ -22,9 +22,6 @@ const EventLong = (props) => (
         <h4>Event description</h4>
         <div className="description">{props.event.description}</div>
       </div>
-      <div className="row justify-content-end arrow">
-        <i className="fas fa-angle-up fa-2x"></i>
-      </div>
     </div>
 )
 

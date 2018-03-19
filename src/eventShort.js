@@ -18,9 +18,6 @@ const EventShort = (props) => (
       	<div className="col-auto"><i className="fas fa-info-circle"></i></div>
       	<div className="col description">{props.event.description}</div>
       </div>
-      <div className="row justify-content-end arrow">
-        <i className="fas fa-angle-down fa-2x"></i>
-      </div>
     </div>
 )
 
